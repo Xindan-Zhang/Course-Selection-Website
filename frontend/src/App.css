@@ -1,0 +1,488 @@
+body {
+  background-color: #fbf8f8;
+  font-family: 'Lato', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.adminCourse {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.adminInstr {
+  display: flex;
+  justify-content: space-around;
+}
+
+.studentWaitList{
+  max-height:200px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.courseName, .instrName, .courseCapacity,
+.courseFilled, .adminInstrName,
+.adminInstrEmail, .adminStudentId,
+.adminStudentName, .courseCheckBox,
+.delButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.blank {
+  height: 100px;
+}
+
+.LogOut {
+  float: right;
+}
+
+.adminCourseHeader {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.adminClassList, .headers{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  max-height:200px;
+
+}
+
+.studentClassList, .headersInStudent{
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 1fr;
+  text-align: center;
+  max-height:200px;
+}
+
+
+.headersInstr, .adminInstrList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  max-height:200px;
+}
+
+
+.courseDisplay, .Displayheaders{
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 3fr 3fr;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.lID {
+  grid-area: lID;
+}
+
+.ID {
+  grid-area: ID;
+
+}
+
+.IDSpace {
+  grid-area: IDSpace;
+}
+
+.lName {
+  grid-area: lName;
+}
+
+.Name {
+  grid-area: Name;
+
+}
+
+.NameSpace {
+  grid-area: NameSpace;
+}
+
+.lPhone {
+  grid-area: lPhone;
+}
+
+.Phone {
+
+  grid-area: Phone;
+}
+
+.PhoneButton {
+
+  grid-area: PhoneButton;
+}
+
+.lEmail {
+  grid-area: lEmail;
+}
+
+.Email {
+  grid-area: Email;
+
+}
+
+.EmailButton {
+
+  grid-area: EmailButton;
+}
+
+.phoneForm input, .emailForm input {
+  width: 150px;
+  font-size: 16px;
+}
+
+.phoneForm {
+  grid-area: PhoneForm;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-items: left;
+  
+}
+
+.emailForm {
+  grid-area: EmailForm;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-items: left;
+}
+
+
+.studentInfo {
+  margin-right: 0px;
+  justify-items: left;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  row-gap: 5px;
+  grid-template-areas:
+  "lID  ID IDSpace"
+  "lName Name NameSpace"
+  "lPhone Phone PhoneButton"
+  "PhoneForm PhoneForm PhoneForm"
+  "lEmail Email EmailButton"
+  "EmailForm EmailForm EmailForm";
+
+}
+
+.studentInfo button {
+  background-color: rgb(104, 151, 151);
+  color: white;
+  width: 30%;
+  border-color: white;
+  cursor: pointer;
+}
+
+.headersStudent, .adminStudentList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  max-height: 200px;
+}
+
+
+.logoutDiv {
+  padding: 10px 0px;
+}
+
+.header {
+  margin: 10px 0px;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+label {
+  display: block
+}
+
+.student h2, .admin h2 {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.studentCourses, .allCourses {
+  margin-top : 50px;
+  margin-bottom: 100px;
+}
+
+.addCourse, .waitList, .adminAddCourse, .allInstructors, .addInstructor, .addDepartment{
+  margin-bottom: 80px;
+}
+
+.selectText {
+  text-align: center;
+}
+
+.addCourse select {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 20px;
+  text-align: center;
+  background-color: white;
+  font-size: 14px;
+  box-shadow: 0 1.5px 0 1.5px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
+
+.addCourse select:hover {
+	border-color: rgb(0, 0, 0);
+}
+
+
+.addCourse select:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 1px 3px rgba(139, 143, 149, 0.7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222;
+	outline: none;
+}
+
+
+.addButton {
+  display: block;
+  margin: 20px auto;
+  padding: 6px;
+  width: 50%;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 50px;
+  background-color: rgb(128, 123, 123);
+  color: #fbf8f8;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #fbf8f8;
+  color: black;
+}
+
+.line {
+  margin-top: 0px;
+  border-bottom: 3px black solid;
+  margin-bottom: 5px;
+}
+
+.selectText {
+  margin-top: 10px;
+}
+
+.addCourseCheckbox {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+}
+
+
+.student {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+
+.selectCourse {
+  background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
+  background-position: bottom;
+  background-size: 5px 2.5px;
+  background-repeat: repeat-x;
+  width: 60%;
+  margin: 10px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+
+}
+
+.delButtonS {
+  background-color: rgb(100, 97, 97);
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delButtonS:hover {
+  background-color: rgb(219, 21, 21);
+}
+
+.LogOut {
+  background-color: rgb(104, 151, 151);
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.admin {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.adminAddCourse form, .addInstructor form, .loginForm, .registerStudent form, .addDepartment form, .registerAdmin{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adminAddCourse form select, .adminAddCourse form input, .addInstructor form input, .loginForm input, .registerStudent input, .addDepartment input{
+  width: 150px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.adminAddCourse form select {
+  background-color: white;
+  font-size: 14px;
+  box-shadow: 0 1.5px 0 1.5px rgba(0, 0, 0, 0.04);
+
+}
+
+
+.adminAddCourse div, .addInstructor div, .loginForm div, .registerStudent div{
+  margin-bottom: 10px;
+}
+
+.adminAddCourse form button, .addInstructor form button, .addDepartment form button {
+  width: 200px;
+  padding: 7px;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+}
+
+ .loginForm button, .registerStudent button {
+  width: 160px;
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  background-color: rgb(104, 151, 151);
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 20px;
+}
+
+
+.adminAddCourse form button:hover, .addInstructor form button:hover, .loginForm button:hover, .registerStudent button:hover, .addDepartment button:hover{
+  background-color: white;
+  color: black;
+}
+
+.warning {
+  color: rgb(199, 21, 21);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.homePage h2, .registerStudent h2, .finishRegister h2 {
+  text-align: center;
+  color: rgb(104, 151, 151);;
+}
+
+.register {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  font-size: 15px;
+  text-align: center;
+  width: 300px;
+}
+
+.registerClick {
+  text-decoration: none;
+  color: black;
+}
+
+.registerClick:hover {
+  color: rgb(104, 151, 151);
+}
+
+.studentLogo {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.finishRegister {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.finishRegister span {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.finishRegisterLink {
+  text-decoration: none;
+  color: rgb(104, 151, 151);
+  font-weight: 800;
+}
+
+.emptyCourse {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(202, 194, 194);
+}
+
+.adminCheckBox input{
+  margin: 0px;
+  width: 30px;
+  padding: 5px;
+
+}
+
+@media(max-width: 1000px) {
+
+  .studentInfo, .emailForm, .phoneForm {
+    grid-template-columns: repeat(3, 150px)
+  }
+
+  .phoneForm input, .emailForm input {
+    width: 120px;
+  }
+
+}
+
+.custom-ui {
+  text-align: center;
+}
+
+.custom-ui button {
+  width: 100px;
+  cursor: pointer;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 600px) {
+
+  .studentInfo, .emailForm, .phoneForm {
+    grid-template-columns: repeat(3, 130px)
+  }
+
+  .phoneForm input, .emailForm input {
+    width: 120px;
+  }
+
+}
