@@ -1,6 +1,6 @@
 # Course Selection Website
 
-The course selection website uses RESTFUL API design and is built with React.js as frontend, Java Spring Boot as backend, and MySQL as database.
+The course selection website uses RESTful API design and is built with React.js as frontend, Java Spring Boot as backend, and MySQL as database.
 The website has two types of users:
    * **Admin users** could add new courses, course departments, instructors into the school system and also view the information of all students, instructors, and courses.
    * **Student users** could enroll/drop courses. Students are automatically added to a course's waitlist if the course is already filled and students could remove themselves from a course waitlist in their account. Moreover, when a student drops a course, the first student in the courses' waitlist will be auto-enrolled.
