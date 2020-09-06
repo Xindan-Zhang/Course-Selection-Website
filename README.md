@@ -8,12 +8,12 @@ The website has two types of users:
    
 ## Website Screenshots
 Login Page   
-<img src="https://user-images.githubusercontent.com/53383156/92289857-e3bd7100-eec6-11ea-8b45-0df8ab6d966d.png" width="500" />   
+<img src="https://user-images.githubusercontent.com/53383156/92315897-3a977900-efa1-11ea-9f92-75e5de8dcfc5.png" width="800" />   
 Student User Page   
-<img src="https://user-images.githubusercontent.com/53383156/92289897-08b1e400-eec7-11ea-91a9-341b8b6b8508.png" width="800" />   
+<img src="https://user-images.githubusercontent.com/53383156/92315922-919d4e00-efa1-11ea-9ac0-c811cce8d8d7.png" width="800" />   
 Admin Page   
-<img src="https://user-images.githubusercontent.com/53383156/92290687-d5bd1f80-eec9-11ea-832d-d67645fc5435.png" width="800" />      
-<img src="https://user-images.githubusercontent.com/53383156/92290722-fc7b5600-eec9-11ea-86dc-e4b0aeff6515.png" width="800" />      
+<img src="https://user-images.githubusercontent.com/53383156/92315933-af6ab300-efa1-11ea-949b-2a1c5b0e1bb3.png" width="800" />      
+<img src="https://user-images.githubusercontent.com/53383156/92315934-bc87a200-efa1-11ea-947a-e02b832e5651.png" width="800" />      
   
   
 ## Installation
