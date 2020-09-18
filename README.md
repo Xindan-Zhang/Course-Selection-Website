@@ -6,7 +6,7 @@ The website has two types of users:
    * **Student users** could enroll/drop courses. Students are automatically added to a course's waitlist if the course is already filled and students could remove themselves from a course waitlist in their account. Moreover, when a student drops a course, the first student in the courses' waitlist will be auto-enrolled.
    
    
-## Website Screenshots
+## Website Screenshots   
 Login Page   
 <img src="https://user-images.githubusercontent.com/53383156/92315897-3a977900-efa1-11ea-9f92-75e5de8dcfc5.png" width="800" />   
 Student User Page   
